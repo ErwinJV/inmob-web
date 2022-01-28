@@ -29,13 +29,13 @@
             @foreach ($photos as $photo)
 
             @if ($photo == 1)
-            <div class="carousel-item active rounded-2">
+            <div class="carousel-item active rounded-3">
                 <img src="{{ Storage::url('property_images/'.$photo.'.jpeg') }}"  class="d-block w-100 rounded-2"
                     >
             </div>
 
             @else
-            <div class="carousel-item  rounded-2">
+            <div class="carousel-item  rounded-3">
                 <img src="{{ Storage::url('property_images/'.$photo.'.jpeg') }}"  class="d-block w-100 rounded-2"
                     >
             </div>
